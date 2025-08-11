@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px 0;
+    padding: 20px 50px;
+    background-color: #f4f4f4;
+}
+
+.banner {
+    background-color: #82bbce;
+    color: rgb(77, 76, 76);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    border: 1px black solid;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: #fc0 1px 0 10px;
+}
+
+.banner p {
+    margin: 10px 0 0;
+    font-size: 1.8em;
+}
+
+main {
+    padding: 0 16px;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: rgb(80, 4, 67);
+    margin-bottom: 5px;
+}
+
+.tabela-CSS {
+    /* classe que define uma table CSS*/
+    display: inline-table;
+    border-collapse: separate;
+    /* Usa bordas separadas */
+    border-spacing: 25px;
+    /* cria espaçamento vertical entre as linhas  */
+    border: 1px #0c1327 solid;
+    background-color: rgb(102, 149, 190);
+    vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.tabela-CSS div {
+    display: table-row;
+}
+
+.tabela-CSS p,
+.tabela-CSS label,
+.tabela-CSS input,
+.tabela-CSS select,
+.tabela-CSS button {
+    display: table-cell;
+}
+
+.caixa-resultado {
+    /*Inicalmente, a caixa não aparece, por isso o "display: none".
+    Conforme a escolha do usuário, a caixa é visualizada com 
+    "display: inline-block"*/
+    display: none;
+    margin: 20px 25px;
+    vertical-align: middle;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.resultado {
+    font-family: sans-serif;
+    font-size: 24px;
+}

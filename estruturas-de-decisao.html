@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Soma Números</title>
+    <script src="js/scripts.js"> </script>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+
+<body>
+    <header class="banner">
+        <h1>Tomando Decisões no Código JS</h1>
+        <p>
+            Esta página usa estruturas de decisão para ir
+            além do processamento sequencial, permitindo que
+            o código JS execute ações diferentes com base em
+            condições específicas.
+        </p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Cor Favorita (Ex00)</h2>
+            <form class="tabela-CSS">
+                <div>
+                    <label for="cores">Você gosta mais do azul ou do vermelho?</label>
+                    <select id="cores">
+                        <option value="VERMELHO">Eu gosto mais do Vermelho</option>
+                        <option value="AZUL">Eu gosto mais do Azul</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="button" onclick="Ex00_CorFavorita()">Analisar Cor</button>
+                    <p> &nbsp;</p>
+                </div>
+            </form>
+            <div id="Ex00-caixa-vermelha"
+                 class="caixa-resultado" 
+                 style="background-color: #ff6347;">
+                Ótima escolha! Vermelho é uma cor vibrante!
+            </div>
+            <div id="Ex00-caixa-azul"
+                 class="caixa-resultado" 
+                 style="background-color: #47a0ff;">
+                Excelente! Azul transmite calma e tranquilidade!
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Analisa um Número (Ex01)</h2>
+            <form class="tabela-CSS">
+                <div>
+                    <label for="Ex01-num1">Número 1:</label>
+                    <input type="number" id="Ex01-num1">
+                </div>
+                <div>
+                    <button type="button" onclick="Ex01_AnalisaNumero()">Processar</button>
+                    <p class="resultado">Resultado: <span id="Ex01_Saida"></span> </p>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <h2>Determina o maior numero (Ex02)</h2>
+            <form class="tabela-CSS">
+                <div>
+                    <label for="Ex02-num1">Número 1:</label>
+                    <input type="number" id="Ex02-num1">
+                </div>
+                <div>
+                    <label for="Ex02-num2">Número 2:</label>
+                    <input type="number" id="Ex02-num2">
+                </div>
+                <div>
+                    <button type="button" onclick="Ex02_MaiorNumero()">Processar</button>
+                    <p class="resultado">Resultado: <span id="Ex02_Saida"></span> </p>
+                </div>
+            </form>
+        </section>
+
+         <section>
+            <h2>Verificador de Maioridade (Ex03)</h2>
+            <form class="tabela-CSS">
+                <div>
+                    <label>Idade:</label>
+                    <input type="number" id="Idade_Ex03">
+                </div>
+                <div>
+                    <button type="button" onclick="Ex03_Maioridade()">Processar</button>
+                    <p class="resultado">Resultado: <span id="Ex03_Saida"></span> </p>
+                </div>
+            </form>
+        </section>
+
+         <section>
+            <h2>Média Bimestral (Ex04)</h2>
+            <form class="tabela-CSS">
+                <div>
+                    <label>Nota 1:</label>
+                    <input type="number" id="Nota1_Ex04">
+                </div>
+                <div>
+                    <label>Nota 2:</label>
+                    <input type="number" id="Nota2_Ex04">
+                </div>
+
+                <div>
+                    <button type="button" onclick="Ex04_Media()">Processar</button>
+                    <p class="resultado">Resultado: <span id="Ex04_Saida"></span> </p>
+                </div>
+            </form>
+        </section>
+
+         <section>
+            <h2>Avaliador de Consumo de Combustível: (Ex05)</h2>
+            <form class="tabela-CSS">
+                <div>
+                    <label>Litros:</label>
+                    <input type="number" id="Litros_Ex05">
+                </div>
+                <div>
+                    <label>Quilômetros Percorridos:</label>
+                    <input type="number" id="Km_Ex05">
+                </div>
+
+                <div>
+                    <button type="button" onclick="Ex05_Quilometros()">Processar</button>
+                    <p class="resultado">Resultado: <span id="Ex05_Saida"></span> </p>
+                </div>
+            </form>
+        </section>
+        <section>
+            <h2>Avaliador de Consumo de Combustível: (Ex05)</h2>
+            <form class="tabela-CSS">
+                <div>
+                    <label>Litros:</label>
+                    <input type="number" id="Litros_Ex05">
+                </div>
+                <div>
+                    <label>Quilômetros Percorridos:</label>
+                    <input type="number" id="Km_Ex05">
+                </div>
+
+                <div>
+                    <button type="button" onclick="Ex05_Quilometros()">Processar</button>
+                    <p class="resultado">Resultado: <span id="Ex05_Saida"></span> </p>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <h2>Avaliador de Consumo de Combustível: (Ex05)</h2>
+            <form class="tabela-CSS">
+                <div>
+                    <label>Litros:</label>
+                    <input type="number" id="Litros_Ex05">
+                </div>
+                <div>
+                    <label>Quilômetros Percorridos:</label>
+                    <input type="number" id="Km_Ex05">
+                </div>
+
+                <div>
+                    <button type="button" onclick="Ex05_Quilometros()">Processar</button>
+                    <p class="resultado">Resultado: <span id="Ex05_Saida"></span> </p>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <h2>Avaliador de Consumo de Combustível- Modificação 1: (Ex05)</h2>
+            <form class="tabela-CSS">
+                <div>
+                    <label>Valor por Litro:</label>
+                    <input type="number" id="Valor_Ex05_mod1">
+                </div>
+                 <div>
+                    <label>Valor Gasto:</label>
+                    <input type="number" id="ValorG_Ex05_mod1">
+                </div>
+
+                <div>
+                    <label>Quilômetros Percorridos:</label>
+                    <input type="number" id="Km_Ex05_mod1">
+                </div>
+
+                <div>
+                    <button type="button" onclick="Ex05_Quilometros_mod1()">Processar</button>
+                    <p class="resultado">Resultado: <span id="Ex05_Saida_mod1"></span> </p>
+                </div>
+            </form>
+        </section>
+
+         <section>
+            <h2>Calculadora Simples (Ex06)</h2>
+            <form class="tabela-CSS">
+                <div>
+                    <label>Número 1:</label>
+                    <input type="number" id="Num1_Ex06">
+                </div>
+                 <div>
+                    <label>Número 2:</label>
+                    <input type="number" id="Num2_Ex06">
+                </div>
+
+                <div>
+                    <label>Escolha a operação desejada</label>
+                    <select id="operacoes_Ex06">
+                        <option value="ADD">+</option>
+                        <option value="MINUS">-</option>
+                        <option value="MULT">x</option>
+                        <option value="DIV">÷</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="button" onclick="Ex06_Calculadora()">Analisar Operação</button>
+                    <p> &nbsp;</p>
+                </div>
+            </form>
+            <div id="Ex06-caixa-MAIS"
+                 class="caixa-resultado" 
+                 style="background-color: #da2e0f;">
+            </div>
+
+            <div id="Ex06-caixa-MENOS"
+                 class="caixa-resultado" 
+                 style="background-color: #47a0ff;">
+            </div>
+
+             <div id="Ex06-caixa-MULT"
+                 class="caixa-resultado" 
+                 style="background-color: #d565a8;">
+            </div>
+
+             <div id="Ex06-caixa-DIV"
+                 class="caixa-resultado" 
+                 style="background-color: #20c51d;">
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Identificador de Período do Dia: (Ex07)</h2>
+            <form class="tabela-CSS">
+                <div>
+                    <label>Horário:</label>
+                    <input type="number" id="Hora_Ex07">
+                </div>
+                <div>
+                    <button type="button" onclick="Ex07_Horario()">Processar</button>
+                    <p class="resultado">Resultado: <span id="Ex07_Saida"></span> </p>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <h2>Verificação de elegibilidade para doação de sangue: (Ex08)</h2>
+            <form class="tabela-CSS">
+                <div>
+                    <label>Nome:</label>
+                    <input type="text" id="Nome_Ex08">
+                </div>
+                <div>
+                    <label>Idade:</label>
+                    <input type="number" id="Idade_Ex08">
+                </div>
+                 <div>
+                    <label>Peso:</label>
+                    <input type="number" id="Peso_Ex08">
+                </div>
+
+
+                <div>
+                    <button type="button" onclick="Ex08_Sangue()">Processar</button>
+                    <p class="resultado">Resultado: <span id="Ex05_Saida"></span> </p>
+                </div>
+            </form>
+        </section>
+
+       
+
+
+        
+    </main>
+</body>
+
+</html>
